@@ -8,3 +8,8 @@
 *.orig
 *.pyc
 *.swp
+
+*.ts
+deno.json
+deno.lock
+denotmp

@@ -3,6 +3,18 @@
 version: '3'
 
 tasks:
-  default:
+  init:
     cmds:
-      - echo "{{.GREETING}}"
+      - deno init
+  run:
+    cmds:
+      - deno run -A main.ts
+  build:
+    cmds:
+      - deno compile ./main.ts
+  clean:
+    cmds:
+      - rm -f ./*.ts
+      - rm -f ./deno.json
+      - rm -f ./deno.lock
+      - rm -f ./denotmp
