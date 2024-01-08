@@ -1,6 +1,6 @@
 ### Deno ###
 /.idea/
-/.vscode/
+#/.vscode/
 
 /node_modules
 
